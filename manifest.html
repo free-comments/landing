@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="icon" href="assets/images/favicon.png"/>
+  <title>Free Comments</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+<header class="bg-gray-dark sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center py-4">
+    <!-- Left section: Logo -->
+    <div class="flex items-center">
+      <a href="index.html" class="hover:text-secondary font-bold">
+        <img src="assets/images/blue-logo.png" alt="Logo" class="h-14 w-auto mr-4">
+      </a>
+    </div>
+    <!-- Hamburger menu (for mobile) -->
+    <div class="flex md:hidden">
+      <button id="hamburger" class="text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Center section: Menu -->
+    <nav class="hidden md:flex md:flex-grow justify-center">
+      <ul class="flex justify-center space-x-4 text-white">
+        <li><a href="manifest.html" class="hover:text-secondary font-bold">Manifest</a></li>
+      </ul>
+    </nav>
+
+    <div class="hidden lg:flex items-center space-x-4">
+      <a href="donate.html" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
+    </div>
+
+  </div>
+</header>
+<!-- Mobile menu -->
+<nav id="mobile-menu-placeholder" class="mobile-menu hidden flex flex-col items-center space-y-8 md:hidden">
+  <ul>
+    <li><a href="manifest.html" class="hover:text-secondary font-bold">Manifest</a></li>
+  </ul>
+  <div class="flex flex-col mt-6 space-y-2 items-center">
+    <a href="donate.html" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
+  </div>
+</nav>
+
+<section id="manifesto" class="py-16">
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+    <!-- Left column: Image -->
+    <div class="md:w-1/2 mb-8 md:mb-0">
+      <img src="assets//images/freedom.png" alt="Image" class="w-full md:mx-auto md:max-w-md"/>
+    </div>
+
+    <!-- Right column: Title, description list, and button -->
+    <div class="md:w-1/2">
+      <h2 class="text-5xl font-bold mb-4">Free Comments <span class="text-primary">Manifesto</span></h2>
+      <ul class="p-4 list-disc list-inside bg-blue-100 rounded shadow-md space-y-4">
+        <li class="mb-2 text-blue-700"><strong>Right to Opinion:</strong> Everyone has the right to their opinion, and you have the right to ignore it.</li>
+        <li class="mb-2 text-blue-700"><strong>No Isolation:</strong> No one should be isolated from society for their views.</li>
+        <li class="mb-2 text-blue-700"><strong>Freedom of Speech:</strong> You are free to use any words with those who understand them or those who deserve them.</li>
+        <li class="mb-2 text-blue-700"><strong>Value of Opinion:</strong> The importance of an opinion lies in its usefulness and trustfulness, not its popularity.</li>
+        <li class="mb-2 text-blue-700"><strong>No Commercial Influence:</strong> Our space is free from commercials and sponsored content.</li>
+        <li class="mb-2 text-blue-700"><strong>Human Interaction Only:</strong> We do not allow bots; only real people can share real opinions.</li>
+        <li class="mb-2 text-blue-700"><strong>Against Illegal Activities:</strong> We stand against and will act upon any illegal activities, including terrorism and trafficking.</li>
+        <li class="mb-2 text-blue-700"><strong>Equality for All:</strong> We are indifferent to political views, religion, race, sexual orientation, and personal beliefs. All voices are equal here.</li>
+        <li class="mb-2 text-blue-700"><strong>Privacy Respected:</strong> We respect your privacy and do not collect personal information like IP addresses or digital fingerprints.</li>
+        <li class="mb-2 text-blue-700"><strong>Mission for Freedom:</strong> Our mission is to restore and uphold freedom of expression on the internet.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gray-dark text-white py-16">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between">
+    <!-- First column: Logo -->
+    <div class="flex flex-col items-center md:items-start">
+      <!-- Logo -->
+      <img src="assets/images/blue-logo-small.png" alt="Logo" class="mb-4">
+    </div>
+    <!-- Second column: Follow Us -->
+    <div class="flex flex-col items-center">
+      <h3 class="text-lg font-bold mb-4">Follow Us</h3>
+      <div class="flex flex-row">
+        <a href="#" class="hover:text-secondary font-bold">
+          <svg fill="currentColor" viewBox="0 0 24 24" width="48px" height="48px" aria-hidden="true">
+            <path fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd"></path>
+          </svg>
+        </a>
+        <a href="#" class="hover:text-secondary font-bold">
+          <svg fill="currentColor" viewBox="0 0 24 24" width="48px" height="48px" aria-hidden="true">
+            <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+            </path>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <div class="bg-indigo-100 py-4 text-black">
+    <div class="container mx-auto px-4">
+      <div class="w-full text-center sm:w-auto">
+        Copyright ©
+        <script> document.write(new Date().getFullYear())</script>
+        Free Co.  All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
