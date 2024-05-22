@@ -28,7 +28,8 @@
         <div class="flex md:hidden">
             <button id="hamburger" class="text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16m-7 6h7"></path>
                 </svg>
             </button>
         </div>
@@ -42,7 +43,8 @@
         </nav>
 
         <div class="hidden lg:flex items-center space-x-4">
-            <a href="donate.html" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
+            <a href="donate.html"
+               class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
         </div>
 
     </div>
@@ -54,7 +56,8 @@
         <li><a href="privacy.html" class="hover:text-secondary font-bold">Privacy</a></li>
     </ul>
     <div class="flex flex-col mt-6 space-y-2 items-center">
-        <a href="donate.html" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
+        <a href="donate.html"
+           class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded inline-block flex items-center justify-center min-w-[110px]">Donate</a>
     </div>
 </nav>
 
@@ -63,8 +66,11 @@
         <!-- Left column: Description and buttons -->
         <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
             <h2 class="text-5xl font-bold mb-4">Free <span class="text-primary">Comments</span></h2>
-            <div class="my-7">Free comments is an innovative, social internet extension, a revolutionary platform designed to facilitate genuine, respectful, and free exchanges of opinion without the interference of commercial interests or automated systems. We strive to create a digital space where all voices can contribute to a vibrant and inclusive dialogue.
-               </div>
+            <div class="my-7">Free comments is an innovative, social internet extension, a revolutionary platform
+                designed to facilitate genuine, respectful, and free exchanges of opinion without the interference of
+                commercial interests or automated systems. We strive to create a digital space where all voices can
+                contribute to a vibrant and inclusive dialogue.
+            </div>
         </div>
 
         <!-- Right column: Responsive image -->
@@ -83,7 +89,8 @@
 
         <!-- Right column: Title, description list, and button -->
         <div class="md:w-1/2">
-            <h2 class="text-5xl font-bold mb-4 text-white">Free comments is currently shipped as Google chrome extension that adds a powerful tool with several functionalities to social media sites:</h2>
+            <h2 class="text-5xl font-bold mb-4 text-white">Free comments is currently shipped as Google chrome extension
+                that adds a powerful tool with several functionalities to social media sites:</h2>
             <ol class="mb-10 list-outside">
                 <li class="flex items-center mb-4">
                     <strong class="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">1</strong>
@@ -161,9 +168,15 @@
                                 d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
                                 data-original="#006BFD"/>
                     </svg>
-                    <a href="javascript:void(0)" class="text-current text-sm ml-3">
+                    <div id="tooltip-email" role="tooltip"
+                         class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        <span id="default-tooltip-message-email">Copy to clipboard</span>
+                        <span id="success-tooltip-message-email" class="hidden">Copied!</span>
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                    <div class="text-current text-sm ml-3" >
                         <strong>free.comments.life@gmail.com</strong>
-                    </a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -189,7 +202,9 @@
                     </svg>
                 </a>
                 <a href="https://www.youtube.com/@FreeComments-sq1rz" class="hover:text-secondary font-bold">
-                    <svg viewBox="0 0 50 50" fill="#FFFFFF" width="50px" height="50px"><path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"/></svg>
+                    <svg viewBox="0 0 50 50" fill="#FFFFFF" width="50px" height="50px">
+                        <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"/>
+                    </svg>
                 </a>
             </div>
 
@@ -200,7 +215,7 @@
             <div class="w-full text-center sm:w-auto">
                 Copyright ©
                 <script> document.write(new Date().getFullYear())</script>
-                Free Co.  All Rights Reserved.
+                Free Co. All Rights Reserved.
             </div>
         </div>
     </div>
